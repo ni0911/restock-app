@@ -73,7 +73,7 @@ export const ItemFilter: React.FC<ItemFilterProps> = ({
         <Grid item xs={12} sm={6} md={3}>
           <TextField
             fullWidth
-            placeholder="消耗品名で検索"
+            placeholder="日用品名で検索"
             value={filterOptions.searchText}
             onChange={handleSearchChange}
             InputProps={{

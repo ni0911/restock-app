@@ -52,10 +52,10 @@ export const ItemTable: React.FC<ItemTableProps> = ({ items, onDelete }) => {
         }}
       >
         <Typography variant="h6" gutterBottom>
-          登録されている消耗品はありません
+          登録されている購入品はありません
         </Typography>
         <Typography variant="body2">
-          新しい消耗品を追加してください
+          新しい購入品を追加してください
         </Typography>
       </Box>
     );
@@ -75,7 +75,7 @@ export const ItemTable: React.FC<ItemTableProps> = ({ items, onDelete }) => {
       <Table>
         <TableHead>
           <TableRow>
-            <TableCell>消耗品名</TableCell>
+            <TableCell>購入品名</TableCell>
             <TableCell>カテゴリ</TableCell>
             <TableCell>数量</TableCell>
             <TableCell>価格</TableCell>

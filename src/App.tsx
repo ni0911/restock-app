@@ -274,7 +274,7 @@ const App: React.FC = () => {
                     letterSpacing: '-0.5px'
                   }}
                 >
-                  消耗品管理アプリ
+                  日用品管理アプリ
                 </Typography>
                 <Typography 
                   variant="body1" 
@@ -284,7 +284,7 @@ const App: React.FC = () => {
                     opacity: 0.8
                   }}
                 >
-                  消耗品の購入履歴を記録し、次回の購入時期を予測します
+                  日用品の購入履歴を記録し、次回の購入時期を予測します
                 </Typography>
               </Box>
               <Button
@@ -301,7 +301,7 @@ const App: React.FC = () => {
                   }
                 }}
               >
-                新しい消耗品を追加
+                新しい購入品を追加
               </Button>
             </Box>
 
@@ -322,12 +322,12 @@ const App: React.FC = () => {
         </Container>
 
         <Dialog open={open} onClose={handleClose} maxWidth="sm" fullWidth>
-          <DialogTitle>新しい消耗品を追加</DialogTitle>
+          <DialogTitle>新しい購入品を追加</DialogTitle>
           <DialogContent>
             <Box sx={{ display: 'grid', gap: 2, pt: 2 }}>
               <TextField
                 name="name"
-                label="消耗品名"
+                label="日用品名"
                 value={newItem.name}
                 onChange={handleInputChange}
                 fullWidth
