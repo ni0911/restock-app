@@ -327,7 +327,7 @@ const App: React.FC = () => {
             <Box sx={{ display: 'grid', gap: 2, pt: 2 }}>
               <TextField
                 name="name"
-                label="日用品名"
+                label="購入品名"
                 value={newItem.name}
                 onChange={handleInputChange}
                 fullWidth
