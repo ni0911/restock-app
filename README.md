@@ -33,7 +33,7 @@ npm install
 
 3. 開発サーバーの起動
 ```bash
-npm run dev
+npm start
 ```
 
 ## ビルド
